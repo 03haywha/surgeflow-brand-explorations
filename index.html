@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Invoice Finance Brand Explorations</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Manrope:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600;700&family=Caveat:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; }
+  .font-editorial { font-family: 'Inter', system-ui, sans-serif; letter-spacing: -0.02em; }
+  .font-fintech { font-family: 'Manrope', 'Inter', system-ui, sans-serif; letter-spacing: -0.025em; }
+  .font-friendly-display { font-family: 'Fraunces', Georgia, serif; }
+  .font-friendly-body { font-family: 'DM Sans', system-ui, sans-serif; }
+  .font-friendly-script { font-family: 'Caveat', cursive; }
+  .font-mono { font-family: 'JetBrains Mono', monospace; }
+
+  /* Custom scrollbar */
+  html { scroll-behavior: smooth; }
+  ::-webkit-scrollbar { width: 8px; }
+  ::-webkit-scrollbar-track { background: #fafafa; }
+  ::-webkit-scrollbar-thumb { background: #d4d4d4; border-radius: 4px; }
+
+  /* Gradient backgrounds */
+  .gradient-fintech-bg {
+    background:
+      radial-gradient(circle at 0% 0%, rgba(99,102,241,0.15), transparent 50%),
+      radial-gradient(circle at 100% 100%, rgba(168,85,247,0.15), transparent 50%),
+      #0a0a14;
+  }
+  .gradient-fintech-text {
+    background: linear-gradient(135deg, #818cf8 0%, #c084fc 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .gradient-friendly-bg {
+    background:
+      radial-gradient(circle at 80% 20%, rgba(255,183,77,0.15), transparent 50%),
+      #fefdf8;
+  }
+
+  .swatch { width: 100%; aspect-ratio: 1.5; border-radius: 8px; display: flex; align-items: flex-end; padding: 12px; font-family: 'JetBrains Mono', monospace; font-size: 11px; }
+</style>
+</head>
+<body class="bg-white text-neutral-900">
+
+<!-- STICKY NAV -->
+<nav class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-neutral-200">
+  <div class="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <div class="w-7 h-7 rounded-lg bg-black flex items-center justify-center text-white font-bold text-xs">S</div>
+      <div class="font-semibold text-sm">Brand Explorations</div>
+    </div>
+    <div class="hidden md:flex items-center gap-1 text-sm">
+      <a href="#editorial" class="px-3 py-2 rounded hover:bg-neutral-100">Editorial</a>
+      <a href="#fintech" class="px-3 py-2 rounded hover:bg-neutral-100">Fintech</a>
+      <a href="#friendly" class="px-3 py-2 rounded hover:bg-neutral-100">Friendly</a>
+      <a href="#names" class="px-3 py-2 rounded hover:bg-neutral-100">Names</a>
+      <a href="#topnames" class="px-3 py-2 rounded hover:bg-neutral-100">Top 5</a>
+      <a href="#compare" class="px-3 py-2 rounded hover:bg-neutral-100">Compare</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="max-w-5xl mx-auto px-6 py-20 md:py-28">
+  <div class="text-xs uppercase tracking-widest text-neutral-500 mb-4">Brand exploration · 3 directions</div>
+  <h1 class="text-5xl md:text-7xl font-bold tracking-tight mb-6 leading-[1.05]">
+    Three brand directions for your invoice finance company.
+  </h1>
+  <p class="text-xl text-neutral-600 leading-relaxed max-w-3xl">
+    All three solve the same problem — unlock cash from invoices — but each speaks to a different customer instinct.
+    Editorial speaks to operators who want clarity. Fintech speaks to founders who want sophistication. Friendly speaks to owners who want relief.
+  </p>
+  <div class="mt-10 flex items-center gap-6 text-sm text-neutral-500">
+    <a href="#editorial" class="px-5 py-2.5 bg-black text-white rounded-lg hover:bg-neutral-800 transition">Start exploring →</a>
+    <span>or jump to <a href="#names" class="underline hover:text-black">brand names</a></span>
+  </div>
+</section>
+
+<!-- =================================================================== -->
+<!-- BRAND DIRECTION A: EDITORIAL                                        -->
+<!-- =================================================================== -->
+<section id="editorial" class="bg-white border-y border-neutral-200">
+  <div class="max-w-7xl mx-auto px-6 py-20">
+
+    <div class="flex items-start justify-between mb-10 flex-wrap gap-4">
+      <div>
+        <div class="text-xs uppercase tracking-widest text-neutral-500 mb-2">Direction A</div>
+        <h2 class="text-5xl font-bold font-editorial tracking-tight">Editorial</h2>
+        <p class="text-neutral-600 mt-2 max-w-xl">Clean, confident, operator-focused. Linear / Notion / Vercel-style. The brand you already approved.</p>
+      </div>
+      <div class="flex items-center gap-3 text-xs">
+        <span class="px-3 py-1.5 bg-black text-white rounded-full font-mono">Inter</span>
+        <span class="px-3 py-1.5 bg-neutral-100 text-neutral-700 rounded-full">Black + neutrals</span>
+        <span class="px-3 py-1.5 bg-neutral-100 text-neutral-700 rounded-full">Sharp corners</span>
+      </div>
+    </div>
+
+    <div class="grid lg:grid-cols-3 gap-8">
+
+      <!-- LEFT: Identity card -->
+      <div>
+        <div class="bg-black text-white rounded-2xl p-8 mb-4">
+          <div class="text-xs uppercase tracking-widest text-neutral-400 mb-3">Wordmark</div>
+          <div class="font-editorial text-5xl font-bold tracking-tight">Ledger.</div>
+          <div class="text-neutral-400 text-sm mt-3">Invoice finance, without the noise.</div>
+        </div>
+
+        <div class="bg-neutral-50 border border-neutral-200 rounded-2xl p-6">
+          <div class="text-xs uppercase tracking-widest text-neutral-500 mb-4">Personality</div>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1.5 bg-white border border-neutral-200 rounded-full text-xs">Confident</span>
+            <span class="px-3 py-1.5 bg-white border border-neutral-200 rounded-full text-xs">Precise</span>
+            <span class="px-3 py-1.5 bg-white border border-neutral-200 rounded-full text-xs">Calm</span>
+            <span class="px-3 py-1.5 bg-white border border-neutral-200 rounded-full text-xs">No-fluff</span>
+            <span class="px-3 py-1.5 bg-white border border-neutral-200 rounded-full text-xs">Operator-first</span>
+          </div>
+          <div class="text-xs uppercase tracking-widest text-neutral-500 mb-2 mt-6">Sample voice</div>
+          <p class="text-sm text-neutral-700 italic">"Invoice finance, properly. Get paid in 24 hours from your existing receivables. One application, every lender, one yes."</p>
+        </div>
+      </div>
+
+      <!-- CENTER: Palette + type -->
+      <div>
+        <div class="bg-white border border-neutral-200 rounded-2xl p-6 mb-4">
+          <div class="text-xs uppercase tracking-widest text-neutral-500 mb-4">Palette</div>
+          <div class="grid grid-cols-3 gap-2 mb-2">
+            <div class="swatch bg-black text-white">#0A0A0A</div>
+            <div class="swatch bg-neutral-700 text-white">#404040</div>
+            <div class="swatch bg-neutral-400 text-white">#A3A3A3</div>
+          </div>
+          <div class="grid grid-cols-4 gap-2">
+            <div class="swatch bg-neutral-200 text-neutral-700">#E5E5E5</div>
+            <div class="swatch bg-neutral-100 text-neutral-700">#F5F5F5</div>
+            <div class="swatch bg-white border border-neutral-200 text-neutral-700">#FFFFFF</div>
+            <div class="swatch text-white" style="background:#10b981">#10B981</div>
+          </div>
+          <div class="text-xs text-neutral-500 mt-3">Black + grays + one emerald accent for "approved" moments.</div>
+        </div>
+
+        <div class="bg-white border border-neutral-200 rounded-2xl p-6">
+          <div class="text-xs uppercase tracking-widest text-neutral-500 mb-4">Type</div>
+          <div class="font-editorial text-5xl font-bold tracking-tight">Get paid faster.</div>
+          <div class="font-editorial text-2xl font-medium tracking-tight text-neutral-600 mt-3">Without chasing.</div>
+          <p class="font-editorial text-sm text-neutral-700 mt-4 leading-relaxed">Inter — geometric sans, tightly tracked, weights 400-900. The fintech default for a reason: legible, neutral, professional.</p>
+        </div>
+      </div>
+
+      <!-- RIGHT: Components -->
+      <div>
+        <div class="bg-white border border-neutral-200 rounded-2xl p-6 mb-4">
+          <div class="text-xs uppercase tracking-widest text-neutral-500 mb-4">Buttons</div>
+          <div class="space-y-3">
+            <button class="w-full py-3 bg-black text-white rounded-lg font-semibold hover:bg-neutral-800 transition">Get my quote →</button>
+            <button class="w-full py-3 bg-white border border-neutral-300 text-black rounded-lg font-semibold hover:bg-neutral-50 transition">Learn more</button>
+            <button class="w-full py-3 text-black font-semibold hover:bg-neutral-100 rounded-lg transition">Just exploring →</button>
+          </div>
+        </div>
+
+        <div class="bg-white border border-neutral-200 rounded-2xl p-6">
+          <div class="text-xs uppercase tracking-widest text-neutral-500 mb-4">Quote card</div>
+          <div class="border-2 border-emerald-500 rounded-xl p-4">
+            <div class="text-xs uppercase tracking-widest text-emerald-700 mb-2">Cash Unlocked</div>
+            <div class="font-editorial text-4xl font-bold tracking-tight">£85,000</div>
+            <div class="inline-flex items-center gap-1.5 mt-2 px-2 py-1 bg-emerald-100 text-emerald-700 rounded-full text-[10px] font-semibold">✓ INDICATIVELY APPROVED</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LANDING HERO MOCKUP -->
+    <div class="mt-12 bg-white border border-neutral-200 rounded-2xl overflow-hidden">
+      <div class="bg-neutral-50 px-6 py-3 border-b border-neutral-200 text-xs text-neutral-500 font-mono">ledger.co — landing hero mockup</div>
+      <div class="p-12 grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <div class="inline-flex items-center gap-1.5 px-2.5 py-1 bg-neutral-100 text-neutral-700 rounded-full text-xs font-medium mb-5">
+            <span class="w-1.5 h-1.5 bg-emerald-500 rounded-full"></span> 47 businesses checked options in last 30 min
+          </div>
+          <h3 class="font-editorial text-4xl md:text-5xl font-bold tracking-tight leading-[1.05] mb-4">
+            Get paid faster.<br/><span class="text-neutral-500">Without chasing.</span>
+          </h3>
+          <p class="text-neutral-600 mb-6">Unlock cash from unpaid invoices in 24 hours. No fixed repayments. No chasing. Just smart matching.</p>
+          <div class="bg-white border-2 border-black rounded-xl p-4">
+            <div class="text-sm font-semibold mb-3">When do customers usually pay?</div>
+            <div class="grid grid-cols-2 gap-2">
+              <button class="py-2.5 border border-neutral-200 rounded-lg text-sm font-medium hover:border-black">This week</button>
+              <button class="py-2.5 border-2 border-black bg-black text-white rounded-lg text-sm font-semibold">Within 30 days</button>
+              <button class="py-2.5 border border-neutral-200 rounded-lg text-sm font-medium hover:border-black">1—3 months</button>
+              <button class="py-2.5 border border-neutral-200 rounded-lg text-sm font-medium hover:border-black">90+ days</button>
+            </div>
+          </div>
+        </div>
+        <div class="bg-neutral-100 rounded-2xl p-6">
+          <div class="bg-white rounded-xl p-5 shadow-sm">
+            <div class="flex items-center justify-between mb-3 text-[10px] uppercase tracking-widest text-neutral-500 font-mono">
+              <span>Invoice Finance Quote</span><span>26 May 2026</span>
+            </div>
+            <div class="border-y border-neutral-100 py-5 text-center">
+              <div class="text-[10px] uppercase tracking-widest text-neutral-500">Cash Unlocked</div>
+              <div class="font-editorial text-4xl font-bold tracking-tight my-1">£85,000</div>
+              <div class="inline-flex items-center gap-1 px-2 py-0.5 bg-emerald-50 text-emerald-700 rounded-full text-[10px] font-bold">✓ INDICATIVELY APPROVED</div>
+            </div>
+            <div class="grid grid-cols-3 gap-2 mt-3 text-xs">
+              <div><div class="text-neutral-500">Advance</div><div class="font-bold">85%</div></div>
+              <div><div class="text-neutral-500">Monthly</div><div class="font-bold">£2,000</div></div>
+              <div><div class="text-neutral-500">Funded</div><div class="font-bold">24h</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-3 text-sm text-neutral-600">
+      <div><strong class="text-black">When to pick:</strong> serious B2B operators who value clarity over warmth</div>
+      <div><strong class="text-black">Best name candidates:</strong> Ledger, Coda, Pulse, Tide</div>
+      <div><strong class="text-black">Comparable brands:</strong> Linear, Mercury, Brex, Vercel</div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =================================================================== -->
+<!-- BRAND DIRECTION B: FINTECH PREMIUM                                  -->
+<!-- =================================================================== -->
+<section id="fintech" class="gradient-fintech-bg text-white">
+  <div class="max-w-7xl mx-auto px-6 py-20">
+
+    <div class="flex items-start justify-between mb-10 flex-wrap gap-4">
+      <div>
+        <div class="text-xs uppercase tracking-widest text-indigo-300 mb-2">Direction B</div>
+        <h2 class="text-5xl font-bold font-fintech tracking-tight gradient-fintech-text">Fintech Premium</h2>
+        <p class="text-indigo-200/80 mt-2 max-w-xl">Slick, modern, AI-positioned. Stripe / Mercury / Rho-style. For the founder who'd happily pay £200/mo for the right product.</p>
+      </div>
+      <div class="flex items-center gap-3 text-xs">
+        <span class="px-3 py-1.5 bg-white/10 text-white rounded-full font-mono">Manrope</span>
+        <span class="px-3 py-1.5 bg-white/10 text-white rounded-full">Indigo gradients</span>
+        <span class="px-3 py-1.5 bg-white/10 text-white rounded-full">Glass + glow</span>
+      </div>
+    </div>
+
+    <div class="grid lg:grid-cols-3 gap-8">
+
+      <!-- LEFT: Identity -->
+      <div>
+        <div class="rounded-2xl p-8 mb-4 relative overflow-hidden" style="background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);">
+          <div class="absolute -top-10 -right-10 w-40 h-40 rounded-full" style="background: radial-gradient(circle, rgba(168,85,247,0.4), transparent 70%);"></div>
+          <div class="relative">
+            <div class="text-xs uppercase tracking-widest text-indigo-300 mb-3">Wordmark</div>
+            <div class="font-fintech text-5xl font-bold tracking-tight">
+              <span class="gradient-fintech-text">Nimbo</span>
+            </div>
+            <div class="text-indigo-200/80 text-sm mt-3">Cash from invoices. Instantly.</div>
+          </div>
+        </div>
+
+        <div class="rounded-2xl p-6 border border-white/10" style="background: rgba(255,255,255,0.04);">
+          <div class="text-xs uppercase tracking-widest text-indigo-300 mb-4">Personality</div>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1.5 bg-white/10 rounded-full text-xs">Smart</span>
+            <span class="px-3 py-1.5 bg-white/10 rounded-full text-xs">Sophisticated</span>
+            <span class="px-3 py-1.5 bg-white/10 rounded-full text-xs">Modern</span>
+            <span class="px-3 py-1.5 bg-white/10 rounded-full text-xs">AI-first</span>
+            <span class="px-3 py-1.5 bg-white/10 rounded-full text-xs">Premium</span>
+          </div>
+          <div class="text-xs uppercase tracking-widest text-indigo-300 mb-2 mt-6">Sample voice</div>
+          <p class="text-sm text-indigo-100 italic">"Your AI underwriter. Match with the right lender from your existing receivables — in seconds, not weeks."</p>
+        </div>
+      </div>
+
+      <!-- CENTER: Palette + type -->
+      <div>
+        <div class="rounded-2xl p-6 mb-4 border border-white/10" style="background: rgba(255,255,255,0.04);">
+          <div class="text-xs uppercase tracking-widest text-indigo-300 mb-4">Palette</div>
+          <div class="grid grid-cols-3 gap-2 mb-2">
+            <div class="swatch text-white" style="background:#0a0a14">#0A0A14</div>
+            <div class="swatch text-white" style="background:#1e1b4b">#1E1B4B</div>
+            <div class="swatch text-white" style="background:#312e81">#312E81</div>
+          </div>
+          <div class="grid grid-cols-4 gap-2">
+            <div class="swatch text-white" style="background:#6366f1">#6366F1</div>
+            <div class="swatch text-white" style="background:#818cf8">#818CF8</div>
+            <div class="swatch text-white" style="background:#a78bfa">#A78BFA</div>
+            <div class="swatch text-white" style="background:#c084fc">#C084FC</div>
+          </div>
+          <div class="text-xs text-indigo-300 mt-3">Deep indigo base + violet→purple gradients for hero moments.</div>
+        </div>
+
+        <div class="rounded-2xl p-6 border border-white/10" style="background: rgba(255,255,255,0.04);">
+          <div class="text-xs uppercase tracking-widest text-indigo-300 mb-4">Type</div>
+          <div class="font-fintech text-5xl font-bold tracking-tight">Get paid faster.</div>
+          <div class="font-fintech text-2xl font-medium tracking-tight text-indigo-300 mt-3">Without chasing.</div>
+          <p class="font-fintech text-sm text-indigo-200 mt-4 leading-relaxed">Manrope — slightly more humanist than Inter, plays nicely with gradients. Display weights 700-800 for hero text.</p>
+        </div>
+      </div>
+
+      <!-- RIGHT: Components -->
+      <div>
+        <div class="rounded-2xl p-6 mb-4 border border-white/10" style="background: rgba(255,255,255,0.04);">
+          <div class="text-xs uppercase tracking-widest text-indigo-300 mb-4">Buttons</div>
+          <div class="space-y-3">
+            <button class="w-full py-3 text-white rounded-lg font-semibold transition" style="background: linear-gradient(135deg, #6366f1, #a78bfa); box-shadow: 0 8px 24px rgba(99,102,241,0.4);">Get my quote →</button>
+            <button class="w-full py-3 border border-white/20 text-white rounded-lg font-semibold hover:bg-white/10 transition" style="background: rgba(255,255,255,0.05);">Learn more</button>
+            <button class="w-full py-3 text-indigo-300 font-semibold hover:bg-white/5 rounded-lg transition">Just exploring →</button>
+          </div>
+        </div>
+
+        <div class="rounded-2xl p-6 border border-white/10" style="background: rgba(255,255,255,0.04);">
+          <div class="text-xs uppercase tracking-widest text-indigo-300 mb-4">Quote card</div>
+          <div class="rounded-xl p-4 relative overflow-hidden" style="background: linear-gradient(135deg, rgba(99,102,241,0.2), rgba(168,85,247,0.2)); border: 1px solid rgba(168,85,247,0.4);">
+            <div class="text-xs uppercase tracking-widest text-purple-300 mb-2">Cash Unlocked</div>
+            <div class="font-fintech text-4xl font-bold tracking-tight gradient-fintech-text">£85,000</div>
+            <div class="inline-flex items-center gap-1.5 mt-2 px-2 py-1 rounded-full text-[10px] font-semibold" style="background: rgba(168,85,247,0.2); color: #c4b5fd;">✓ AI-MATCHED · APPROVED</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LANDING HERO MOCKUP -->
+    <div class="mt-12 rounded-2xl overflow-hidden border border-white/10">
+      <div class="px-6 py-3 border-b border-white/10 text-xs text-indigo-300 font-mono" style="background: rgba(0,0,0,0.4);">nimbo.ai — landing hero mockup</div>
+      <div class="p-12 grid md:grid-cols-2 gap-8 items-center" style="background: linear-gradient(135deg, #0a0a14 0%, #1e1b4b 100%);">
+        <div>
+          <div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium mb-5" style="background: rgba(168,85,247,0.15); color: #c4b5fd;">
+            <span class="w-1.5 h-1.5 rounded-full" style="background: #a78bfa;"></span> Powered by AI underwriting
+          </div>
+          <h3 class="font-fintech text-4xl md:text-5xl font-bold tracking-tight leading-[1.05] mb-4">
+            <span class="gradient-fintech-text">Cash from invoices.</span><br/>
+            <span class="text-white">Instantly.</span>
+          </h3>
+          <p class="text-indigo-200 mb-6">AI matches your receivables to the right lender. Funded in 24 hours. No spam, no calls, no chasing.</p>
+          <div class="rounded-xl p-4" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(168,85,247,0.3);">
+            <div class="text-sm font-semibold mb-3">When do customers usually pay?</div>
+            <div class="grid grid-cols-2 gap-2">
+              <button class="py-2.5 rounded-lg text-sm font-medium" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);">This week</button>
+              <button class="py-2.5 rounded-lg text-sm font-semibold text-white" style="background: linear-gradient(135deg, #6366f1, #a78bfa);">Within 30 days</button>
+              <button class="py-2.5 rounded-lg text-sm font-medium" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);">1—3 months</button>
+              <button class="py-2.5 rounded-lg text-sm font-medium" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);">90+ days</button>
+            </div>
+          </div>
+        </div>
+        <div class="rounded-2xl p-6" style="background: rgba(99,102,241,0.08); backdrop-filter: blur(20px);">
+          <div class="rounded-xl p-5" style="background: linear-gradient(135deg, rgba(99,102,241,0.15), rgba(168,85,247,0.15)); border: 1px solid rgba(168,85,247,0.3);">
+            <div class="flex items-center justify-between mb-3 text-[10px] uppercase tracking-widest text-purple-300 font-mono">
+              <span>AI Quote</span><span>26 May 2026</span>
+            </div>
+            <div class="border-y py-5 text-center" style="border-color: rgba(168,85,247,0.2);">
+              <div class="text-[10px] uppercase tracking-widest text-purple-300">Cash Unlocked</div>
+              <div class="font-fintech text-4xl font-bold tracking-tight gradient-fintech-text my-1">£85,000</div>
+              <div class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold" style="background: rgba(168,85,247,0.25); color: #c4b5fd;">✓ AI-MATCHED · APPROVED</div>
+            </div>
+            <div class="grid grid-cols-3 gap-2 mt-3 text-xs">
+              <div><div class="text-purple-300">Advance</div><div class="font-bold text-white">85%</div></div>
+              <div><div class="text-purple-300">Monthly</div><div class="font-bold text-white">£2,000</div></div>
+              <div><div class="text-purple-300">Funded</div><div class="font-bold text-white">24h</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-3 text-sm text-indigo-200">
+      <div><strong class="text-white">When to pick:</strong> tech-forward founders who want a premium, AI-positioned product</div>
+      <div><strong class="text-white">Best name candidates:</strong> Nimbo, Volo, Vela, Lume, Mira</div>
+      <div><strong class="text-white">Comparable brands:</strong> Stripe, Mercury, Rho, Pilot, Plaid</div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =================================================================== -->
+<!-- BRAND DIRECTION C: FRIENDLY HUMAN                                   -->
+<!-- =================================================================== -->
+<section id="friendly" class="gradient-friendly-bg" style="color: #1c1917;">
+  <div class="max-w-7xl mx-auto px-6 py-20">
+
+    <div class="flex items-start justify-between mb-10 flex-wrap gap-4">
+      <div>
+        <div class="text-xs uppercase tracking-widest text-amber-700 mb-2">Direction C</div>
+        <h2 class="font-friendly-display text-5xl md:text-6xl font-bold tracking-tight" style="color: #1c1917;">Friendly & Human</h2>
+        <p class="mt-2 max-w-xl" style="color: #57534e;">Warm, conversational, Monzo / Lovey-style. For business owners who feel burned by finance brokers and want someone who actually gets it.</p>
+      </div>
+      <div class="flex items-center gap-3 text-xs">
+        <span class="px-3 py-1.5 rounded-full font-mono" style="background:#1c1917;color:white">Fraunces + DM Sans</span>
+        <span class="px-3 py-1.5 rounded-full" style="background:#fef3c7;color:#92400e">Warm coral + cream</span>
+        <span class="px-3 py-1.5 rounded-full" style="background:#fef3c7;color:#92400e">Rounded</span>
+      </div>
+    </div>
+
+    <div class="grid lg:grid-cols-3 gap-8">
+
+      <!-- LEFT: Identity -->
+      <div>
+        <div class="rounded-3xl p-8 mb-4" style="background: linear-gradient(135deg, #fde68a 0%, #fca5a5 100%);">
+          <div class="text-xs uppercase tracking-widest mb-3" style="color: #92400e;">Wordmark</div>
+          <div class="font-friendly-display text-6xl font-bold tracking-tight" style="color: #1c1917;">Float</div>
+          <div class="font-friendly-script text-2xl mt-3" style="color: #57534e;">finally, getting paid on time.</div>
+        </div>
+
+        <div class="rounded-3xl p-6 border" style="background: white; border-color: #fed7aa;">
+          <div class="text-xs uppercase tracking-widest mb-4" style="color: #92400e;">Personality</div>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1.5 rounded-full text-xs" style="background:#fef3c7;color:#92400e">Warm</span>
+            <span class="px-3 py-1.5 rounded-full text-xs" style="background:#fef3c7;color:#92400e">Honest</span>
+            <span class="px-3 py-1.5 rounded-full text-xs" style="background:#fef3c7;color:#92400e">Plain English</span>
+            <span class="px-3 py-1.5 rounded-full text-xs" style="background:#fef3c7;color:#92400e">A bit cheeky</span>
+            <span class="px-3 py-1.5 rounded-full text-xs" style="background:#fef3c7;color:#92400e">On your side</span>
+          </div>
+          <div class="text-xs uppercase tracking-widest mb-2 mt-6" style="color: #92400e;">Sample voice</div>
+          <p class="font-friendly-body text-sm italic" style="color: #44403c;">"Tired of customers paying late? Float gets your money in 24 hours. No chasing, no drama, no fixed repayments. Just you, paid on time, every time."</p>
+        </div>
+      </div>
+
+      <!-- CENTER: Palette + type -->
+      <div>
+        <div class="rounded-3xl p-6 mb-4 border" style="background:white; border-color: #fed7aa;">
+          <div class="text-xs uppercase tracking-widest mb-4" style="color: #92400e;">Palette</div>
+          <div class="grid grid-cols-3 gap-2 mb-2">
+            <div class="swatch text-white" style="background:#1c1917">#1C1917</div>
+            <div class="swatch text-white" style="background:#92400e">#92400E</div>
+            <div class="swatch text-white" style="background:#f97316">#F97316</div>
+          </div>
+          <div class="grid grid-cols-4 gap-2">
+            <div class="swatch" style="background:#fca5a5;color:#7f1d1d">#FCA5A5</div>
+            <div class="swatch" style="background:#fde68a;color:#92400e">#FDE68A</div>
+            <div class="swatch" style="background:#fef3c7;color:#92400e">#FEF3C7</div>
+            <div class="swatch" style="background:#fefdf8;color:#57534e;border:1px solid #fed7aa">#FEFDF8</div>
+          </div>
+          <div class="text-xs mt-3" style="color: #57534e;">Warm cream base, peach + coral accents, deep walnut text. Feels like a Sunday newspaper.</div>
+        </div>
+
+        <div class="rounded-3xl p-6 border" style="background:white; border-color: #fed7aa;">
+          <div class="text-xs uppercase tracking-widest mb-4" style="color: #92400e;">Type</div>
+          <div class="font-friendly-display text-5xl font-bold tracking-tight" style="color: #1c1917;">Get paid faster.</div>
+          <div class="font-friendly-script text-3xl mt-3" style="color: #f97316;">without the chase.</div>
+          <p class="font-friendly-body text-sm mt-4 leading-relaxed" style="color: #57534e;">Fraunces (display serif, slightly playful), DM Sans (body), Caveat (script touches). Mixed faces signal warmth without losing professionalism.</p>
+        </div>
+      </div>
+
+      <!-- RIGHT: Components -->
+      <div>
+        <div class="rounded-3xl p-6 mb-4 border" style="background:white; border-color: #fed7aa;">
+          <div class="text-xs uppercase tracking-widest mb-4" style="color: #92400e;">Buttons</div>
+          <div class="space-y-3">
+            <button class="w-full py-3 text-white rounded-full font-semibold transition" style="background:#1c1917;">Get my quote →</button>
+            <button class="w-full py-3 rounded-full font-semibold transition border-2" style="background:white; border-color:#1c1917; color:#1c1917;">Show me how it works</button>
+            <button class="w-full py-3 font-semibold rounded-full transition" style="color: #92400e;">Just exploring →</button>
+          </div>
+        </div>
+
+        <div class="rounded-3xl p-6 border" style="background:white; border-color: #fed7aa;">
+          <div class="text-xs uppercase tracking-widest mb-4" style="color: #92400e;">Quote card</div>
+          <div class="rounded-2xl p-4" style="background: linear-gradient(135deg, #fef3c7, #fde68a); border: 2px solid #f97316;">
+            <div class="text-xs uppercase tracking-widest mb-2" style="color:#92400e;">Cash Unlocked</div>
+            <div class="font-friendly-display text-4xl font-bold tracking-tight" style="color:#1c1917;">£85,000</div>
+            <div class="inline-flex items-center gap-1.5 mt-2 px-2 py-1 rounded-full text-[10px] font-semibold" style="background:#1c1917;color:white;">✓ YOU'RE IN</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LANDING HERO MOCKUP -->
+    <div class="mt-12 rounded-3xl overflow-hidden border" style="background:white; border-color:#fed7aa;">
+      <div class="px-6 py-3 border-b text-xs font-mono" style="background:#fefdf8; border-color:#fed7aa; color:#92400e;">float.co — landing hero mockup</div>
+      <div class="p-12 grid md:grid-cols-2 gap-8 items-center" style="background:#fefdf8;">
+        <div>
+          <div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium mb-5" style="background:#fef3c7; color:#92400e;">
+            <span class="w-1.5 h-1.5 rounded-full" style="background:#f97316;"></span> Funded 1,247 UK businesses · zero spam, promise
+          </div>
+          <h3 class="font-friendly-display text-4xl md:text-5xl font-bold tracking-tight leading-[1.05] mb-2" style="color:#1c1917;">
+            Tired of chasing?
+          </h3>
+          <p class="font-friendly-script text-3xl mb-4" style="color:#f97316;">Float gets you paid.</p>
+          <p class="font-friendly-body mb-6" style="color:#57534e;">No fixed repayments. No long contracts. No automated maze of menus. Just your cash, in your account, in 24 hours.</p>
+          <div class="rounded-2xl p-4 border-2" style="background:white; border-color:#1c1917;">
+            <div class="font-friendly-body text-sm font-semibold mb-3" style="color:#1c1917;">When do customers usually pay?</div>
+            <div class="grid grid-cols-2 gap-2">
+              <button class="py-2.5 rounded-full text-sm font-medium border" style="background:white; border-color:#fed7aa; color:#1c1917;">This week</button>
+              <button class="py-2.5 rounded-full text-sm font-semibold text-white" style="background:#1c1917;">Within 30 days</button>
+              <button class="py-2.5 rounded-full text-sm font-medium border" style="background:white; border-color:#fed7aa; color:#1c1917;">1—3 months</button>
+              <button class="py-2.5 rounded-full text-sm font-medium border" style="background:white; border-color:#fed7aa; color:#1c1917;">90+ days</button>
+            </div>
+          </div>
+        </div>
+        <div class="rounded-3xl p-6" style="background: linear-gradient(135deg, #fde68a, #fca5a5);">
+          <div class="rounded-2xl p-5" style="background:white;">
+            <div class="flex items-center justify-between mb-3 text-[10px] uppercase tracking-widest font-mono" style="color:#92400e;">
+              <span>Your Quote</span><span>26 May 2026</span>
+            </div>
+            <div class="border-y py-5 text-center" style="border-color:#fef3c7;">
+              <div class="text-[10px] uppercase tracking-widest" style="color:#92400e;">Cash Unlocked</div>
+              <div class="font-friendly-display text-4xl font-bold tracking-tight my-1" style="color:#1c1917;">£85,000</div>
+              <div class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold" style="background:#1c1917;color:white;">✓ YOU'RE IN</div>
+            </div>
+            <div class="grid grid-cols-3 gap-2 mt-3 text-xs" style="color:#57534e;">
+              <div><div>Advance</div><div class="font-bold" style="color:#1c1917;">85%</div></div>
+              <div><div>Monthly</div><div class="font-bold" style="color:#1c1917;">£2,000</div></div>
+              <div><div>Funded</div><div class="font-bold" style="color:#1c1917;">24h</div></div>
+            </div>
+          </div>
+          <div class="font-friendly-script text-center text-xl mt-4" style="color:#92400e;">your money, on time, finally.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-3 text-sm" style="color:#57534e;">
+      <div><strong style="color:#1c1917;">When to pick:</strong> owner-operators who hated their broker last time and want a real human</div>
+      <div><strong style="color:#1c1917;">Best name candidates:</strong> Float, Snap, Hatch, Settle, Latch</div>
+      <div><strong style="color:#1c1917;">Comparable brands:</strong> Monzo, Lovey (Love Finance), Klarna, Pip, Tally (Notion-y)</div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =================================================================== -->
+<!-- BRAND NAMES                                                         -->
+<!-- =================================================================== -->
+<section id="names" class="bg-neutral-50 border-y border-neutral-200">
+  <div class="max-w-7xl mx-auto px-6 py-20">
+    <div class="text-xs uppercase tracking-widest text-neutral-500 mb-2">Brand names</div>
+    <h2 class="text-5xl font-bold tracking-tight mb-2">20 candidates, 4 themes.</h2>
+    <p class="text-neutral-600 mb-12 max-w-2xl">All short enough to own. All evocative for invoice finance specifically. Domain availability is heuristic — verify before committing.</p>
+
+    <div class="grid md:grid-cols-2 gap-8 mb-12">
+
+      <!-- Theme 1: Action verbs -->
+      <div>
+        <div class="text-xs uppercase tracking-widest text-neutral-500 mb-3">Theme 01 · Action verbs</div>
+        <h3 class="text-2xl font-bold mb-2">"This is what we do for you"</h3>
+        <p class="text-sm text-neutral-600 mb-4">Direct, plain English. Pair best with the Friendly brand.</p>
+        <div class="space-y-2">
+          <NameRow name="Float" reasoning="Finance term + buoyancy metaphor. Easy to verb (float your invoices)." domain=".co · .io" />
+          <NameRow name="Snap" reasoning="Instant. Cash from invoices, snap." domain=".finance · .io" />
+          <NameRow name="Hatch" reasoning="Unlock the cash hatched inside your sales ledger." domain=".finance · .co" />
+          <NameRow name="Latch" reasoning="Latch onto your cash. Owned-feeling." domain=".co · .io" />
+          <NameRow name="Settle" reasoning="Settling invoices, settled feeling. Used in finance already." domain=".co · .finance" />
+        </div>
+      </div>
+
+      <!-- Theme 2: Latin / abstract -->
+      <div>
+        <div class="text-xs uppercase tracking-widest text-neutral-500 mb-3">Theme 02 · Latin & abstract</div>
+        <h3 class="text-2xl font-bold mb-2">"We're a serious fintech"</h3>
+        <p class="text-sm text-neutral-600 mb-4">Made-up or Latin roots. Pair best with the Fintech brand.</p>
+        <div class="space-y-2">
+          <NameRow name="Nimbo" reasoning="Nimble + nimbus (cloud). Fast and modern feel." domain=".ai · .io · .co" />
+          <NameRow name="Volo" reasoning="Latin: 'I fly'. Short, two-syllable, owned-feeling." domain=".finance · .co · .ai" />
+          <NameRow name="Vela" reasoning="Latin: 'sail'. Smooth motion, flowing finance." domain=".ai · .co" />
+          <NameRow name="Lume / Lumen" reasoning="Light, illumination of finances. Calm + bright." domain=".finance · .co" />
+          <NameRow name="Mira" reasoning="Latin: 'wonder'. Short, clean, premium." domain=".ai · .co" />
+        </div>
+      </div>
+
+      <!-- Theme 3: Direct + evocative -->
+      <div>
+        <div class="text-xs uppercase tracking-widest text-neutral-500 mb-3">Theme 03 · Direct + evocative</div>
+        <h3 class="text-2xl font-bold mb-2">"Honest, descriptive, owned"</h3>
+        <p class="text-sm text-neutral-600 mb-4">Single common words. Pair best with the Editorial brand.</p>
+        <div class="space-y-2">
+          <NameRow name="Ledger" reasoning="The literal asset we're financing. Owned, clear." domain=".co · .finance" />
+          <NameRow name="Pulse" reasoning="Regular rhythm of cash hitting your account." domain=".finance · .ai" />
+          <NameRow name="Tide" reasoning="Cash tide. Natural ebb and flow. (taken by neobank — see .finance)" domain=".finance" />
+          <NameRow name="Coda" reasoning="Musical: the final, resolving section. Payment = resolution." domain=".finance · .co" />
+          <NameRow name="Brisk" reasoning="Fast, efficient, friendly. Short and lively." domain=".co · .finance" />
+        </div>
+      </div>
+
+      <!-- Theme 4: Made-up / coined -->
+      <div>
+        <div class="text-xs uppercase tracking-widest text-neutral-500 mb-3">Theme 04 · Coined / portmanteau</div>
+        <h3 class="text-2xl font-bold mb-2">"We're a category of one"</h3>
+        <p class="text-sm text-neutral-600 mb-4">Words you have to learn — but you own them completely.</p>
+        <div class="space-y-2">
+          <NameRow name="Liqq / Lique" reasoning="From 'liquidity'. Two-syllable, modern, almost certainly available." domain=".com likely · .ai · .co" />
+          <NameRow name="Forto" reasoning="Abstract. Fintech feel. Already a Klarna-ish DTL competitor in EU." domain=".finance · .ai" />
+          <NameRow name="Klarvio" reasoning="Klar (clear) + vio (path). Premium, made-up, clean." domain=".com likely · .co" />
+          <NameRow name="Sprig" reasoning="Spring + Sprig of growth. Already used by some — verify." domain=".co · .finance" />
+          <NameRow name="Helo" reasoning="Halo + Hello. Welcoming and protective." domain=".finance · .co" />
+        </div>
+      </div>
+
+    </div>
+
+    <div class="bg-white border border-neutral-200 rounded-2xl p-6 text-sm text-neutral-600">
+      <strong class="text-black">A pragmatic note on domains:</strong> all single English words (Float, Snap, Pulse, Tide, Ledger) are almost certainly taken as .com.
+      For UK invoice finance specifically, <span class="font-mono text-black">.finance</span> is a legitimate TLD that signals trust without paying $5,000+ for the .com.
+      <span class="font-mono text-black">.co</span> and <span class="font-mono text-black">.ai</span> are increasingly acceptable for fintech. Verify with a quick check on Namecheap before falling in love.
+    </div>
+  </div>
+</section>
+
+
+<!-- =================================================================== -->
+<!-- TOP 5 NAMES WITH LOGO TREATMENTS                                    -->
+<!-- =================================================================== -->
+<section id="topnames" class="bg-white border-y border-neutral-200">
+  <div class="max-w-7xl mx-auto px-6 py-20">
+    <div class="text-xs uppercase tracking-widest text-neutral-500 mb-2">Top 5</div>
+    <h2 class="text-5xl font-bold tracking-tight mb-2">My five favourites — in their natural brand.</h2>
+    <p class="text-neutral-600 mb-12 max-w-2xl">Each name shown in the brand direction it pairs best with, so you can see what you'd actually be living with.</p>
+
+    <div class="grid md:grid-cols-2 gap-6">
+
+      <!-- 1. FLOAT in Friendly -->
+      <div class="rounded-2xl p-8" style="background: linear-gradient(135deg, #fde68a 0%, #fca5a5 100%);">
+        <div class="text-xs font-mono mb-2" style="color:#92400e;">FRIENDLY · #1 PICK</div>
+        <div class="font-friendly-display text-7xl font-bold tracking-tight" style="color:#1c1917;">Float.</div>
+        <div class="font-friendly-script text-2xl mt-2" style="color:#7f1d1d;">cash from invoices, finally.</div>
+        <div class="mt-6 text-sm leading-relaxed" style="color:#44403c;">
+          <strong style="color:#1c1917;">Why it works:</strong> existing finance term so it carries credibility instantly, but light and human feeling. Verbs cleanly ("Float your invoices"). Memorable. Domain: <span class="font-mono">float.finance</span> or <span class="font-mono">float.co</span>.
+        </div>
+      </div>
+
+      <!-- 2. NIMBO in Fintech -->
+      <div class="rounded-2xl p-8" style="background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%); color:white;">
+        <div class="text-xs font-mono mb-2" style="color:#a78bfa;">FINTECH · #2 PICK</div>
+        <div class="font-fintech text-7xl font-bold tracking-tight">
+          <span class="gradient-fintech-text">Nimbo</span>
+        </div>
+        <div class="text-2xl mt-2 font-fintech" style="color:#c4b5fd;">your invoices, paid instantly.</div>
+        <div class="mt-6 text-sm leading-relaxed" style="color:#c4b5fd;">
+          <strong class="text-white">Why it works:</strong> sounds like "nimble" without being literal. Modern, AI-friendly. Two-syllable, owned, abstract. Pairs naturally with .ai domain. <span class="font-mono">nimbo.ai</span>.
+        </div>
+      </div>
+
+      <!-- 3. LEDGER in Editorial -->
+      <div class="rounded-2xl p-8 bg-black text-white">
+        <div class="text-xs font-mono mb-2 text-neutral-400">EDITORIAL · #3 PICK</div>
+        <div class="font-editorial text-7xl font-bold tracking-tight">Ledger.</div>
+        <div class="text-xl mt-2 font-editorial text-neutral-400">Invoice finance, properly.</div>
+        <div class="mt-6 text-sm leading-relaxed text-neutral-400">
+          <strong class="text-white">Why it works:</strong> the literal name of the asset we're financing. Confident, clear, owned. Used by Ledger crypto-hardware, but in finance the term is universal — own the SaaS angle. <span class="font-mono">ledger.finance</span>.
+        </div>
+      </div>
+
+      <!-- 4. PULSE in Editorial/Fintech -->
+      <div class="rounded-2xl p-8 bg-white border-2 border-black">
+        <div class="text-xs font-mono mb-2 text-neutral-500">EDITORIAL · #4 PICK</div>
+        <div class="font-editorial text-7xl font-bold tracking-tight">Pulse.</div>
+        <div class="text-xl mt-2 font-editorial text-neutral-600">The rhythm of getting paid.</div>
+        <div class="mt-6 text-sm leading-relaxed text-neutral-600">
+          <strong class="text-black">Why it works:</strong> rhythm of cash hitting your account. Active, healthy, vital. Has nice secondary meaning around heart-rate / business health. <span class="font-mono">pulse.finance</span>.
+        </div>
+      </div>
+
+      <!-- 5. HATCH in Friendly -->
+      <div class="rounded-2xl p-8 col-span-2" style="background:#fefdf8; border:2px solid #fed7aa;">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div>
+            <div class="text-xs font-mono mb-2" style="color:#92400e;">FRIENDLY · #5 PICK</div>
+            <div class="font-friendly-display text-7xl font-bold tracking-tight" style="color:#1c1917;">Hatch.</div>
+            <div class="font-friendly-script text-2xl mt-2" style="color:#f97316;">unlock what your invoices are sitting on.</div>
+            <div class="mt-6 text-sm leading-relaxed" style="color:#57534e;">
+              <strong style="color:#1c1917;">Why it works:</strong> evokes opening up locked value. Short, memorable, owned. Already used by some startups (verify) but for invoice finance it's a clean fit. <span class="font-mono">hatch.finance</span>.
+            </div>
+          </div>
+          <div class="text-center text-7xl">🐣</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- =================================================================== -->
+<!-- SIDE-BY-SIDE COMPARISON                                             -->
+<!-- =================================================================== -->
+<section id="compare" class="bg-neutral-50 border-y border-neutral-200">
+  <div class="max-w-7xl mx-auto px-6 py-20">
+    <div class="text-xs uppercase tracking-widest text-neutral-500 mb-2">Side by side</div>
+    <h2 class="text-5xl font-bold tracking-tight mb-12">Same product. Three feelings.</h2>
+
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm border-collapse">
+        <thead>
+          <tr class="border-b-2 border-neutral-300">
+            <th class="text-left p-3 font-semibold w-1/4"></th>
+            <th class="text-left p-3 font-semibold">Editorial</th>
+            <th class="text-left p-3 font-semibold">Fintech Premium</th>
+            <th class="text-left p-3 font-semibold">Friendly Human</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-neutral-200">
+          <tr>
+            <td class="p-3 text-neutral-500 font-semibold">Hero promise</td>
+            <td class="p-3">Get paid faster. Without chasing.</td>
+            <td class="p-3">Cash from invoices. Instantly.</td>
+            <td class="p-3">Tired of chasing? Float gets you paid.</td>
+          </tr>
+          <tr>
+            <td class="p-3 text-neutral-500 font-semibold">Hero font</td>
+            <td class="p-3 font-mono text-xs">Inter Black, -2% tracking</td>
+            <td class="p-3 font-mono text-xs">Manrope ExtraBold, -2.5% tracking</td>
+            <td class="p-3 font-mono text-xs">Fraunces Bold + Caveat script</td>
+          </tr>
+          <tr>
+            <td class="p-3 text-neutral-500 font-semibold">CTA shape</td>
+            <td class="p-3 font-mono text-xs">Sharp corners (rounded-lg)</td>
+            <td class="p-3 font-mono text-xs">Slight rounded + gradient + glow</td>
+            <td class="p-3 font-mono text-xs">Fully rounded (rounded-full)</td>
+          </tr>
+          <tr>
+            <td class="p-3 text-neutral-500 font-semibold">Approved stamp</td>
+            <td class="p-3">✓ INDICATIVELY APPROVED</td>
+            <td class="p-3">✓ AI-MATCHED · APPROVED</td>
+            <td class="p-3">✓ YOU'RE IN</td>
+          </tr>
+          <tr>
+            <td class="p-3 text-neutral-500 font-semibold">Trust micro</td>
+            <td class="p-3">47 businesses checked options in last 30 min</td>
+            <td class="p-3">Powered by AI underwriting</td>
+            <td class="p-3">Funded 1,247 UK businesses · zero spam, promise</td>
+          </tr>
+          <tr>
+            <td class="p-3 text-neutral-500 font-semibold">FAQ tone</td>
+            <td class="p-3 italic text-neutral-600">"Yes. The first check is a soft search only and does not affect your credit score."</td>
+            <td class="p-3 italic text-neutral-600">"Soft search only. Zero credit footprint. Your score is unaffected."</td>
+            <td class="p-3 italic text-neutral-600">"Nope! Asking won't hurt your score. It's a light tap, not a heavy hit."</td>
+          </tr>
+          <tr>
+            <td class="p-3 text-neutral-500 font-semibold">Picks for…</td>
+            <td class="p-3">CFOs / FDs of growing SMEs</td>
+            <td class="p-3">Tech founders / SaaS / venture-backed</td>
+            <td class="p-3">Owner-operators / trades / construction / hospitality</td>
+          </tr>
+          <tr>
+            <td class="p-3 text-neutral-500 font-semibold">Closest competitor</td>
+            <td class="p-3">Tally Finance (us, but better)</td>
+            <td class="p-3">Stripe Capital, MarketFinance</td>
+            <td class="p-3">Lovey (Love Finance)</td>
+          </tr>
+          <tr>
+            <td class="p-3 text-neutral-500 font-semibold">My pick of name</td>
+            <td class="p-3 font-bold">Ledger</td>
+            <td class="p-3 font-bold">Nimbo</td>
+            <td class="p-3 font-bold">Float</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+
+<!-- =================================================================== -->
+<!-- NEXT STEPS                                                          -->
+<!-- =================================================================== -->
+<section class="bg-white">
+  <div class="max-w-3xl mx-auto px-6 py-20 text-center">
+    <div class="text-xs uppercase tracking-widest text-neutral-500 mb-2">Next</div>
+    <h2 class="text-5xl font-bold tracking-tight mb-6">Pick a direction. I'll rebuild the funnel.</h2>
+    <p class="text-neutral-600 mb-10 text-lg">
+      Once you tell me <strong class="text-black">brand direction + name</strong>, I'll restyle the entire invoice finance funnel in that identity, push it live to Vercel, and we can show it to your partner.
+      Takes about an hour of my time end-to-end.
+    </p>
+    <div class="grid md:grid-cols-3 gap-3 max-w-xl mx-auto">
+      <div class="bg-neutral-50 border border-neutral-200 rounded-xl p-4 text-sm">
+        <div class="font-semibold mb-1">1. Pick direction</div>
+        <div class="text-neutral-500 text-xs">A, B, or C — or hybrid</div>
+      </div>
+      <div class="bg-neutral-50 border border-neutral-200 rounded-xl p-4 text-sm">
+        <div class="font-semibold mb-1">2. Pick name</div>
+        <div class="text-neutral-500 text-xs">From the 20, or pitch your own</div>
+      </div>
+      <div class="bg-neutral-50 border border-neutral-200 rounded-xl p-4 text-sm">
+        <div class="font-semibold mb-1">3. I rebuild</div>
+        <div class="text-neutral-500 text-xs">Funnel restyled and redeployed</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-black text-neutral-400 py-10 text-center text-sm">
+  <div>Brand explorations · Captured 26 May 2026 · Iterate freely</div>
+</footer>
+
+<!-- Inline NameRow component as helper -->
+<script>
+// No JS needed — this is server-rendered HTML.
+// The custom-element NameRow placeholder gets replaced below.
+document.querySelectorAll('NameRow').forEach(el => {
+  const name = el.getAttribute('name');
+  const reasoning = el.getAttribute('reasoning');
+  const domain = el.getAttribute('domain');
+  const div = document.createElement('div');
+  div.className = 'flex items-start gap-4 p-4 bg-white border border-neutral-200 rounded-xl hover:border-black transition';
+  div.innerHTML = `
+    <div class="font-bold text-2xl tracking-tight w-24 flex-shrink-0">${name}</div>
+    <div class="flex-1">
+      <div class="text-sm text-neutral-700 leading-relaxed">${reasoning}</div>
+      <div class="text-xs text-neutral-400 mt-1 font-mono">${domain}</div>
+    </div>
+  `;
+  el.replaceWith(div);
+});
+</script>
+
+</body>
+</html>
